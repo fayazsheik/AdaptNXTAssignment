@@ -1,0 +1,156 @@
+.three-op-container{
+  height: 40px;
+  width: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 15px;
+  border: 1px solid grey;
+  margin: 8px;
+}
+.first-container{
+  display: flex;
+  
+}
+.select-tab{
+  border:  none;
+  outline: none;
+}
+
+
+
+
+
+
+.main-container {
+  padding: 20px;
+  display: flex; /* Set container to flex */
+  flex-direction: column; /* Set flex direction to column */
+}
+
+
+
+
+
+
+
+
+
+.order-details {
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.tebal-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-button-items {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.header-button {
+  margin-right: 10px;
+}
+
+.header-button button {
+  background: none;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  border: 2px solid #000;
+  padding: 4px;
+}
+
+.header-button button span {
+  margin-right: 5px;
+}
+
+.tebal-header button {
+  background: none;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  border: 1px solid #000;
+  padding: 4px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th {
+  padding: 10px;
+  text-align: left;
+}
+
+td {
+  border: 1px solid #dddddd;
+  padding: 10px;
+}
+
+
+input[type="checkbox"],
+select {
+  margin: 0;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+.expand-collapse {
+  cursor: pointer;
+  padding: 5px;
+}
+
+.expand-collapse::after {
+  content: "+";
+}
+
+.expand-collapse.open::after {
+  content: "-";
+}
+
+.box{
+  height: 20px;
+  width: 20px;
+  border: 1px solid grey;
+  margin: 2px;
+  
+}
+
+tr th[scope="tabler"] {
+  background-color: #fbf5fb;
+  color: #090909;
+  border-right:50% solid;
+  
+}
+
+tr {
+  border-bottom: 1px solid rgba( 0, 0, 0, 0.2 );
+}
+
+.orderno{
+  color: rgb(0, 17, 255);
+  font-size: 15px;
+  font-weight: 500;
+}
+.status{
+  border: 1px solid rgb(10, 250, 10);
+  background-color: rgb(236, 247, 236);
+  color: rgb(7, 244, 7);
+  height: 30px;
+  font-size: 15px;
+  text-align: center;
+}
+.bag{
+  color: green;
+}
